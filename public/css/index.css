@@ -25,6 +25,9 @@
      color: #141414 !important;
      letter-spacing: 0.05em;
 }
+.navbar-nav{
+ margin: 0 auto;
+}
  .jumbotron {
      position: relative;
      background: url('../img/church-hero.jpg') no-repeat bottom center/cover;
