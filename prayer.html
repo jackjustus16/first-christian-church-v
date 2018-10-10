@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Prayer Request</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="stylesheet" href="../public/css/index.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand logo-mob" href="#">
+           <img src="../public/img/logo.png" height="50" alt="First Christian Church Victoria, Tx Logo">
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="visit">Visit</a>
+               </li>
+            </ul>
+            <a class="navbar-brand" href="/">
+            <img src="../public/img/logo.png" height="50" alt="First Christian Church Victoria, Tx Logo">
+            </a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link" href="sermons">Sermons</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contact">Contact</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 visit-hero">
+                <div class="overlay">
+                    <h3 class="visit-hero-head">Prayer Requests</h3>
+                </div>
+            </div>
+        </div>
+        <section class="get-in-touch">
+                <h1 class="title">Prayer Request</h1>
+                <p class="sub-title">Feel free to send anonymously</p>
+            <form action="https://formspree.io/alexrich700@gmail.com" method="POST" class="contact-form row">
+                <div class="form-field col-md-12">
+                    <input id="name" class="input-text js-input" type="text" name="name">
+                    <label class="label" for="name">Name</label>
+                </div>
+                <div class="form-field col-md-6 col-sm-12">
+                    <input id="email" class="input-text js-input" type="email" name="_replyto">
+                    <label class="label" for="email">E-mail</label>
+                </div>
+                <div class="form-field col-md-6 col-sm-12">
+                    <input id="phone" class="input-text js-input" type="phone_number" name="phone_number">
+                    <label class="label" for="phone-number">Phone Number</label>
+                </div>
+                <div class="form-field col-md-12">
+                    <input id="message" class="input-text js-input" type="text" name="message" required>
+                    <label class="label" for="message">Prayer Request*</label>
+                </div>
+                <input type="text" name="_gotcha" style="display:none" />
+                <div class="form-field col-md-12 align-center">
+                    <input class="submit-btn" type="submit" value="Send">
+                    <input type="hidden" name="_next" value="https://utsachristians.org/contact" />
+                </div>
+            </form>
+        </section>
+    </div>
+        <div class="row footer-quote">
+            <div class="col-md-12">
+               <div class="verse">
+                  My soul is weary with sorrow; strengthen me according to your word.
+                  <cite>Psalms 8:12</cite>
+               </div>
+            </div>
+         </div>
+         <!--<div class="row pray-request-section">-->
+         <!--   <div class="col-md-12">-->
+         <!--      <div class="col-md-12 thin" style="color:#fff !important; margin-top:5px;">-->
+         <!--         Would You Like Us To Pray For You?-->
+         <!--      </div>-->
+               <!--<div class="col-md-12">-->
+               <!--   <a href="contact">-->
+               <!--   <button class="prayer-btn">-->
+               <!--   Prayer Request-->
+               <!--   </button>-->
+               <!--   </a>-->
+               <!--</div>-->
+         <!--   </div>-->
+         <!--</div>-->
+        
+        <footer>
+            <!-- Footer Links -->
+            <div class="container">
+               <!-- Footer links -->
+               <div class="row">
+                  <!-- Grid column -->
+                  <div class="col-md-7 footer-logo-wrap">
+                     <img src="../public/img/logo.png" alt="First Christian Church Victoria, Texas logo" class="footer-logo">
+                     <p class="description">
+                         First Christian Church Victoria, Texas strives to unite the community in the love of God and bring others to know the peace that results from a relationship with Him
+                     </p>
+                  </div>
+                  <!-- Grid column -->
+                  <!-- Grid column -->
+                  <div class="col-md-5 con">
+                     <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+                     <p>
+                        <i class="fa fa-home mr-3"></i> 2105 N Ben Jordan St, Victoria, TX 77901
+                     </p>
+                     <p>
+                        <i class="fa fa-church mr-3"></i> Service Times: Sunday 10:45 AM
+                     </p>
+                     <p>
+                        <i class="fa fa-clock mr-3"></i> Office Hours: Mon-Thurs: 7:00Am-5:00 PM
+                     </p>
+                     <p>
+                        <i class="fa fa-phone mr-3"></i> (361) 575-2971
+                     </p>
+                  </div>
+                  <!-- Grid column -->
+               </div>
+               <hr>
+               <!-- Grid row -->
+               <div class="row">
+                  <!-- Grid column -->
+                  <div class="col-lg-8 col-md-7 col-xs-12">
+                     <!--Copyright-->
+                     <p class="copyright">© 2018 Copyright: First Christian Church Victoria, TX
+                     </p>
+                  </div>
+                  <!-- Grid column -->
+                  <!-- Grid column -->
+                  <div class="col-lg-4 col-md-5 col-xs-12" style="text-align:center;">
+                     <span>
+                     <a class="social-icon" href="https://www.facebook.com/Victoria-First-Christian-Church-Disciples-of-Christ-136773466336545/" target="_blank">
+                     <i class="fab fa-facebook-f"></i>
+                     </a>
+                     </span>
+                     <span>
+                     <a class="social-icon" href="#" target="_blank">
+                     <i class="fas fa-envelope"></i>
+                     </a>
+                     </span>
+                  </div>
+                  <!-- Grid column -->
+               </div>
+               <!-- Grid row -->
+            </div>
+            <!-- Footer links -->
+         </footer>
+         <!-- Footer -->
+        
+        
+    </div>
+    
+    <script src="../public/js/index.js"></script>
+  </body>
+</html>

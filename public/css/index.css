@@ -1,0 +1,1153 @@
+.div-wrap {
+     overflow-x: hidden !important;
+}
+ .row {
+     margin: 0 !important;
+}
+ .justify-content-center {
+     margin: 0 !important;
+}
+ .container-fluid {
+     padding: 0!important;
+}
+ .navbar-brand {
+     margin: 0 5vw !important;
+     display: block;
+}
+ .logo-mob {
+     display: none !important;
+}
+ .nav-item, .nav-link {
+     margin: 0 10px;
+     font-size: 20px;
+     font-weight: 500;
+     font-family: 'Poppins', serif;
+     color: #141414 !important;
+     letter-spacing: 0.05em;
+}
+ .jumbotron {
+     position: relative;
+     background: url('../img/church-hero.jpg') no-repeat bottom center/cover;
+     height: calc(100vh - 165px - 75px);
+     width: 100%;
+     overflow: hidden;
+}
+ .jumbotron:before {
+     position: absolute;
+     content: "";
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.5);
+}
+ .jumbotron h1 {
+     color: #fff;
+     font-size: 60px;
+     font-weight: 700;
+     font-family: 'Poppins', sans-serif;
+     margin-top: 13vh;
+}
+ .jumbotron .lead {
+     color: #fff;
+     font-size: 30px;
+     font-weight: 500;
+     font-family: 'Poppins', sans-serif;
+}
+ .head-cross {
+     max-width: none !important;
+}
+ #wrap-cross {
+     position: absolute;
+     background-image: url('https://thegem2-codexthemes.netdna-ssl.com/thegem/wp-content/uploads/revslider/church-02/19.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     padding-right: 50px;
+     padding-left: 50px;
+     display: inline-block;
+     width: 650px;
+     height: 370px;
+     position: sticky;
+}
+@media( max-height: 665px){
+  #wrap-cross {
+    background-image: url('');
+  }
+}
+@media( min-height: 700px){
+  #wrap-cross {
+    height: 335px !important;
+  }
+}
+@media( min-height: 780px){
+  #wrap-cross {
+    height: 350px !important;
+  }
+}
+@media( min-height: 860px){
+  #wrap-cross {
+    height: 360px !important;
+  }
+} 
+@media( min-height: 935px){
+  #wrap-cross {
+    height: 370px !important;
+  }
+}
+@media( min-height: 1022px){
+  #wrap-cross {
+    height: 390px !important;
+  }
+  .jumbotron {
+    height: 60vh;
+  }
+}
+@media( min-height: 1276px){
+  #wrap-cross {
+    height: 455px !important;
+  }
+  .jumbotron {
+    height: 50vh;
+  }
+}
+@media( min-height: 1364px){
+  #wrap-cross {
+    height: 480px !important;
+  }
+  .jumbotron {
+    height: 50vh;
+  }
+}
+ .red-strip {
+     background-color: #CF4A46;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     height: auto;
+    /*overflow: visible !important;
+    */
+}
+ .red-strip-wrap {
+     max-width: 1200px !important;
+     margin: 0 auto !important;
+}
+ .red-section-head {
+     font-size: 24px;
+     font-weight: 600;
+     color: #fff;
+     line-height: 1.4;
+     font-family: 'Poppins', sans-serif;
+}
+ .red-section-sub {
+     color: #fff;
+     display: block;
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.4;
+     font-family: 'Poppins', sans-serif;
+}
+ .hor-line {
+     border-left: 1px solid rgba(255, 255, 255, 0.3);
+     margin: auto 0;
+}
+ .red-section-mark {
+     vertical-align: middle;
+     list-style: none;
+     display: inline-block;
+     margin: auto 0;
+}
+ .red-section-mark li {
+     display:table-row;
+}
+ .marker {
+     color: white;
+     padding-right: 15px;
+}
+ .marker-text {
+     color: #fff;
+     font-size: 18px;
+     line-height: 1.4;
+     font-weight: 400;
+     font-family: 'Crimson Text', serif;
+}
+ .new-here-btn {
+     background-color: #CF4A46;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size: 28px;
+     font-weight: 500;
+     letter-spacing: 0.1em;
+    /* Border styles */
+     border: 1px solid #fff;
+     border-radius: 5px;
+     padding: 1px 20px;
+     min-height: 40px;
+     margin-top: 10px;
+}
+ .new-here-btn:hover {
+     color: #CF4A46 !important;
+     background: #fff;
+     border-color: #fff !important;
+     transition: all 0.7s ease 0s;
+     cursor: pointer;
+}
+ .new-here-btn-mob {
+     background-color: transparent;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     letter-spacing: 0.1em;
+    /* Border styles */
+     border: 2px solid #fff;
+     border-radius: 5px;
+     padding: 1px 20px;
+     min-height: 40px;
+}
+ .new-here-btn-mob:hover {
+     color: #CF4A46 !important;
+     background: #fff;
+     border-color: #fff !important;
+     transition: all 0.7s ease 0s;
+     cursor: pointer;
+}
+ .prayer-btn {
+     background-color: transparent;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     letter-spacing: 0.1em;
+     margin-top: 20px;
+     margin-bottom: 5px;
+    /* Border styles */
+     border: 2px solid #fff;
+     border-radius: 10px;
+     padding: 1px 20px;
+     min-height: 40px;
+}
+ .prayer-btn:hover {
+     color: #CF4A46 !important;
+     background: #fff;
+     border-color: #fff !important;
+     transition: all 0.7s ease 0s;
+     cursor: pointer;
+}
+ .about-icon-box {
+     background-color: #f2f2f2;
+     margin-top: 10px;
+     max-width:180px !important;
+     min-width: 180px;
+}
+ .about-icon-box:nth-of-type(odd) {
+     margin-bottom: 20px;
+}
+ .divider {
+     padding-top: 30px;
+}
+ .center {
+     display: block;
+     text-align: center;
+     margin: 0 auto;
+}
+ .wrap-about-padding {
+     padding: 36px 15px;
+}
+ .about-section {
+     padding: 100px 15px 65px 15px;
+     margin: 0 auto !important;
+     max-width: 1200px;
+}
+ .wrap-about-padding h3 {
+     font-size: 20px;
+     color: #323232 !important;
+     font-family: 'Playfair Display', serif;
+     line-height: 1;
+     margin-top: 13px;
+     margin-bottom: 2px;
+}
+ .about-icon {
+     font-size: 50px;
+     color: #323232;
+}
+ .about-our-church {
+     padding: 0 15px;
+}
+ .thin {
+     font-weight: 300;
+     color: #323232;
+     font-size: 28px;
+     font-family: 'Playfair Display', serif;
+     line-height: 1;
+}
+ .our-church {
+     color: #d67a7e;
+     font-weight: 700;
+     font-size: 42px;
+     font-family: 'Playfair Display', serif;
+     line-height: 1;
+}
+ .our-church-sub {
+     font-weight: 300;
+     font-family: 'Playfair Display', serif;
+     line-height: 1.38em;
+     font-size: 18px;
+     margin-top: 40px;
+     margin-bottom: 24px;
+     color: #323232;
+}
+ .our-church-para {
+     max-width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: -7px;
+     font-size: 16px;
+     margin-bottom: 28px;
+     line-height: 1.625em;
+     color: #9a9a9a;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+}
+ .pray-request-section {
+     background: #CF4A46;
+     border-left: none;
+     padding: 30px 0px 30px 0px;
+     position: relative;
+     text-align: center;
+}
+ .pastor-photo {
+     background-image: url('../img/pastor-index.jpg');
+     background-size: cover;
+     background-position: top;
+     height: 500px;
+}
+ .pastor-intro {
+     background-color: #CF4A46;
+     height: 500px;
+     display: table;
+}
+ .pastor-intro-wrap {
+     max-width: 80%;
+     display: table-cell;
+     vertical-align: middle;
+     padding-left: 100px;
+}
+ .pastor-intro-head {
+     font-size: 42px;
+     font-weight: 500;
+     font-style: normal;
+     letter-spacing: 0.05em;
+     line-height: 1;
+     color: #fff;
+     font-family: 'Playfair Display', sans-serif;
+     padding-bottom: 3px;
+}
+ .pastor-intro-sub-head {
+     font-size: 20px;
+     font-weight: 400;
+     font-style: normal;
+     letter-spacing: 0.05em;
+     line-height: 1;
+     color: #fff;
+     padding-bottom: 10px;
+     font-family: 'Playfair Display', sans-serif;
+}
+ .pastor-intro-para {
+     font-size: 17px;
+     line-height: 1.625em;
+     color: #e7e7e7;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     max-width: 65% 
+}
+ .grey-section {
+     background-color: #f7f7f7;
+}
+ .grey-section div {
+     padding-top: 50px;
+    /* padding-bottom: 50px;
+     */
+     color: #333333;
+     font-size: 50px;
+     font-weight: 700;
+     line-height: 60px;
+     text-align: center;
+     font-family: 'Playfair Display', sans-serif;
+     letter-spacing: 0.05em;
+}
+ .arrow-large {
+     width: 100vw;
+     border-style: solid;
+     border-width: 50px 50vw 0 50vw;
+     border-color: #f7f7f7 transparent transparent transparent;
+     padding: 0 !important;
+     margin: 0 !important;
+}
+ .arrow {
+     background-color: #f2f2f2;
+     border-bottom: 1px solid #f2f2f2;
+     border-left: 1px;
+     bottom: -16px;
+     -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     position: absolute;
+     left: 50%;
+     margin-left: -15px;
+     height: 30px;
+     width: 30px;
+     z-index: 3;
+}
+ .invite-head {
+     font-size: 42px;
+     font-weight: 500;
+     font-style: normal;
+     letter-spacing: 0.05em;
+     line-height: 1;
+     color: #000;
+     font-family: 'Playfair Display', sans-serif;
+     padding-bottom: 3px;
+     text-align: center;
+     padding-top: 5vh;
+}
+ .invite-hr {
+     width: 10vw;
+     height: 1px;
+     background-color: #f7f7f7;
+     margin-bottom: 5vh;
+}
+ .invite-icon-middle {
+     border-left: 3px solid black;
+     border-right: 3px solid black;
+     height: 100px;
+}
+ .invite-icon {
+     height: 75px;
+     display: block;
+     margin: 0 auto;
+     margin-bottom: 20px;
+}
+ .invite-icon-head {
+     text-align: center;
+     margin-bottom: 10px;
+     font-size: 24px;
+     font-weight: 700;
+     font-family: 'Playfair Display', sans-serif;
+}
+ .invite-icon-sub {
+     text-align: center;
+     font-size: 18px;
+     font-weight: 400;
+     font-family: 'Roboto', sans-serif;
+     margin-bottom: 5vh;
+}
+ .img-wrap {
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSypUzY22zAcWPLeOlrm7d1NO3KZqsECiPbhKM89vJ0FSdIeVzW');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 400px;
+     margin: 5vh 1vw 5vh 1vw;
+}
+ .iw-line-1:before {
+     content: "";
+     display: inline-block;
+     z-index: 2;
+     position: absolute;
+     width: 26px;
+     height: 1px;
+     background-color: #fff;
+     margin-left: 0px;
+     margin-top: 30px;
+}
+ .iw-line-1:after {
+     content: "";
+     display: inline-block;
+     z-index: 2;
+     position: absolute;
+     width: 29px;
+     height: 1px;
+     background-color: #fff;
+     margin-left: 35px;
+     margin-top: 30px;
+}
+ .iw-line-2:before {
+     content: "";
+     display: inline-block;
+     z-index: 2;
+     position: absolute;
+     height: 26px;
+     width: 1px;
+     background-color: #fff;
+     margin-left: 30px;
+     margin-top: 0px;
+}
+ .iw-line-2:after {
+     content: "";
+     display: inline-block;
+     z-index: 2;
+     position: absolute;
+     width: 1px;
+     height: 85px;
+     background-color: #fff;
+     margin-left: 30px;
+     margin-top: 35px;
+}
+ .status-event {
+     font-size: 24px;
+     font-family: 'Open Sans',sans-serif;
+     font-weight: 600;
+     position: absolute;
+     color: #fff;
+     letter-spacing: 0.2em;
+     margin-top: 75px;
+     text-transform: uppercase;
+     width: calc(100% - 4vw);
+     word-wrap: break-word;
+     text-align: center;
+     padding: 0 65px;
+}
+ .info-wrap {
+     position: absolute;
+     bottom: 65px;
+     width: 100%;
+     padding: 0 22px;
+}
+ .date {
+     background-color: #ffcd00!important;
+     color: #fff;
+     -webkit-border-radius: 2px;
+     border-radius: 2px;
+     min-width: 20% !important;
+     text-align: center;
+     display: block;
+     float: left;
+     padding: 18px 10px 9px 10px;
+}
+ .day {
+     font-size: 40px;
+     font-weight: 700;
+     line-height: 24px;
+     color: #fff;
+     text-align: center;
+}
+ .month-year {
+     font-size: 11px;
+     font-family: 'Open Sans',sans-serif;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-top: 5px;
+     color: #fff;
+     text-align: center;
+}
+ .event-details {
+     overflow: hidden;
+     color: #fff;
+     float: left;
+     width: 70% !important;
+     padding-left: 15px;
+     display: block;
+}
+ .event-title {
+     color: #fff;
+     line-height: 24px;
+}
+ .event-title h3 {
+     font-size: 18px;
+     color: white;
+}
+ .time-address ul {
+     margin: 0;
+     padding-left: 0;
+}
+ .time-address-li {
+     font-family: 'Open Sans',sans-serif;
+     font-weight: 600;
+     list-style: none;
+     margin-right: 5px;
+     display: inline-block;
+     margin: 0;
+     color: #fff;
+     text-align: left;
+}
+ .footer-quote {
+     /*background-image: url(http://wp.swlabs.co/holycross/wp-content/uploads/2017/02/bg-footertop.jpg);*/
+     /*background-size: cover;*/
+     /*background-position: center;*/
+     background-color: #f7f7f7;
+     padding: 90px 0;
+     text-align: center;
+}
+ .verse {
+     font-size: 36px;
+     font-style: italic;
+     font-weight: 600;
+     border-left: none;
+    /*margin: 0px 0px 20px;
+    */
+     padding: 30px 30px 30px 50px;
+     position: relative;
+     font-family: 'Crimson Text', serif;
+     text-align: center;
+}
+ .verse cite {
+     font-size: 24px;
+     font-weight: 600;
+     color: #CF4A46;
+     text-align: center;
+     display: block;
+     margin-top: 5px;
+     font-family: 'Crimson Text', serif;
+}
+ .footer-logo {
+     width: 25vw;
+}
+ footer .row:nth-of-type(1) {
+     padding-top: 5vh;
+     padding-bottom: 2vh;
+}
+ .description {
+     margin-top: 17px;
+     color: #9a9a9a;
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     max-width: 500px;
+}
+ .social-icon {
+     padding-left: 3px;
+     padding-right: 3px;
+     color: black !important;
+}
+ .social-icon-contact {
+     padding-right: 5px;
+     color: black !important;
+}
+ .social-icon:hover{
+     color: #1eb2bb !important;
+}
+ .con h6 {
+     font-size: 22px;
+}
+/*MEDIA QUERIES*/
+ @media(max-width: 1210px) {
+     .new-here-btn-mob {
+         font-size: 18px;
+    }
+     .pastor-intro-wrap {
+         padding-left: 30px;
+    }
+     .pastor-intro-para {
+         max-width: 85%;
+    }
+}
+ @media(max-width: 991px) {
+     nav {
+         max-width: 100vw !important;
+    }
+     .navbar-brand {
+         display: none !important;
+    }
+     .navbar-nav:nth-of-type(2) {
+         margin-top: 0 !important;
+    }
+     .navbar-toggler {
+         margin-right: 5vw;
+    }
+     .logo-mob {
+         display: inline-block !important;
+         margin: 0 5vw !important;
+    }
+     #head-cross-id {
+         padding: 0 !important;
+    }
+     .new-here-btn-mob {
+         font-size: 16px;
+    }
+     .red-section-mark {
+         padding-left: 20px;
+    }
+     .hor-line {
+         padding: 0 !important;
+    }
+     .about-section {
+         padding-top: 60px;
+         padding-bottom: 40px;
+    }
+     .pastor-intro-wrap {
+         text-align: center;
+         padding: 0 10px;
+    }
+     .pastor-intro-para {
+         text-align: center;
+         max-width: 100%;
+    }
+     .footer-quote {
+         padding: 60px 0;
+    }
+     .footer-logo {
+         width:300px;
+    }
+    .vc-custom:nth-of-type(1) {
+     background-color: #CF4A46 !important;
+    }
+    .vc-custom:nth-of-type(2) {
+     background-color: #ffcd00 !important;
+    }
+    .vc-custom:nth-of-type(3) {
+     background-color: #ffcd00 !important;
+    }
+    .vc-custom:nth-of-type(4) {
+     background-color: #CF4A46 !important;
+    }
+}
+ @media(max-width: 768px) {
+     .red-strip {
+         padding: 30px 0px 40px 0px !important;
+         max-width: 100vw;
+    }
+     .red-strip-wrap {
+         text-align: center;
+         max-width: 100vw;
+    }
+     .red-section-sub {
+         display: none;
+    }
+     .hor-line {
+         border: 0;
+         margin-bottom: 10px;
+         letter-spacing: 0.1em;
+    }
+     .new-here-btn-mob {
+         font-size: 20px;
+    }
+     .red-section-mark {
+         padding: 0;
+    }
+     .about-icon-box {
+         max-width: 40vw !important;
+         margin: 15px auto 0 auto !important;
+         min-width: 40vw !important;
+    }
+     .about-icon-box:nth-of-type(odd) {
+         margin-right: 10px;
+         margin-bottom: 0 !important;
+    }
+     .about-our-church {
+         padding:0 !important;
+    }
+     .invite-icon-middle {
+         border: 0;
+         height: auto;
+    }
+     .img-wrap {
+         max-width: 330px;
+         margin: 5vh auto !important;
+    }
+     .status-event {
+         text-align: center;
+         max-width: 330px;
+        /*font-size: 22px;
+        */
+         text-transform: none;
+    }
+     .footer-quote {
+         padding: 45px 0;
+    }
+     .footer-logo {
+         display: block !important;
+         margin: 0 auto !important;
+    }
+     .description, .con, .copyright {
+         text-align: center;
+    }
+    .welcome-header {
+     text-align: center;
+     margin: 35px auto 0 auto !important;
+    }
+    .welcome-para {
+     text-align: center;
+     margin: 20px auto 35px auto !important;
+    }
+}
+ @media(max-width: 466px) {
+     .logo-mob {
+         margin: 0 auto !important;
+    }
+     .logo-mob img {
+         height: auto;
+         max-width: calc(100vw - 40px) !important;
+    }
+     .navbar-toggler {
+         margin: 0 auto !important;
+    }
+     .grey-section div {
+         font-size: 42px;
+         padding-top: 30px;
+    }
+     .pray-request-section div {
+         line-height: 40px;
+    }
+     .footer-logo-wrap {
+         padding: 0 !important;
+    }
+     .footer-logo {
+         max-width: 90vw;
+    }
+    .visit-hero-head {
+     padding-top: 100px !important;
+    }
+}
+ @media(max-width: 675px) {
+     #head-cross-id {
+         padding: 0 !important;
+    }
+     #wrap-cross {
+         background-image: url("");
+         padding:0 !important;
+         max-width: 100vw !important;
+         vertical-align: middle;
+         margin-top: 5vh;
+    }
+     #wrap-cross h1 {
+         margin: 0 auto !important;
+         text-align: center !important;
+         max-width: 100vw;
+         margin-top: 5vh !important;
+    }
+     .jumbotron {
+         padding-top: 20px !important;
+    }
+    .welcome-sub-hero-head {
+     font-size: 38px !important;
+    }
+}
+@media(max-width: 575px) {
+    .vc-custom:nth-of-type(1) {
+     background-color: #CF4A46 !important;
+    }
+    .vc-custom:nth-of-type(2) {
+     background-color: #ffcd00 !important;
+    }
+    .vc-custom:nth-of-type(3) {
+     background-color: #CF4A46 !important;
+    }
+    .vc-custom:nth-of-type(4) {
+     background-color: #ffcd00 !important;
+    }
+}
+ @media(max-width: 500px) {
+     #wrap-cross h1 {
+         font-size: 40px;
+    }
+     .jumbotron .lead {
+         font-size: 22px;
+    }
+    .welcome-sub-hero-head {
+     padding: 80px 10px !important;
+     font-size: 36px !important;
+    }
+    .welcome-sub-hero {
+     height: auto !important;
+    }
+}
+/*END MEDIA QUEIRES*/
+/*VISIT PAGE*/
+ .visit-hero {
+     background-image: url("../img/church-hero.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: bottom;
+     width: 100%;
+     height: 50vh;
+     padding:0 !important;
+}
+
+.visit-hero-head {
+ font-size: 54px;
+ text-align: center;
+ margin: 0 auto;
+ padding-top: 20vh;
+  color: #fff;
+}
+
+.welcome-header {
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  max-width: 500px;
+  margin: 7vh auto;
+}
+
+.welcome-para {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  max-width: 500px;
+  margin: 0 auto 5vh auto
+}
+
+.welcome-img-expect {
+  background-image: url('../img/what-to-expect.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.welcome-img-faq {
+  background-image: url('../img/faq-section.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.welcome-sub-hero {
+  background-image: url('../img/church-hero.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding:0 !important;
+}
+
+.overlay {
+ background-color: rgba(0, 0, 0, 0.3);
+ height: 100%;
+}
+
+.welcome-sub-hero-head {
+  font-size: 44px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 120px 0;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+.vc-custom:nth-of-type(odd) {
+ background-color: #CF4A46;
+ min-height: 275px;
+ height: auto;
+}
+.vc-custom:nth-of-type(even) {
+ background-color: #ffcd00;
+ min-height: 275px;
+ height: auto;
+}
+
+.vc-custom-head {
+ font-size: 26px;
+ line-height: 1.4;
+ letter-spacing: 0.05em;
+ font-weight: 600;
+ text-align: center;
+ font-family: 'Poppins' sans-serif;
+ color: white;
+ margin-top: 50px;
+}
+.vc-custom-sub-head {
+ font-size: 18px;
+ line-height: 1.7;
+ letter-spacing: 0.01em;
+ text-align: center;
+ font-family: 'Poppins' sans-serif;
+ color: white;
+ margin: 20px 10px 20px 10px;
+}
+
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion a:hover::after {
+  border: 1px solid #03b5d2;
+}
+
+.accordion a.active {
+  color: #03b5d2;
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion a::after {
+  font-family: sans-serif;
+  content: '+';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #7288a2;
+  /*padding: 5px;*/
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #7288a2;
+  text-align: center;
+}
+
+.accordion a.active::after {
+  font-family: sans-serif;
+  content: '-';
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}
+
+
+/*Contact Form*/
+
+.align-center {
+  text-align: center;
+}
+
+.content-wrapper {
+  min-height: 100%;
+  position: relative;
+}
+.get-in-touch {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+}
+.get-in-touch .title {
+  text-align: center;
+  padding-top: 5vh;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+  font-size: 42px;
+  line-height: 48px;
+}
+.get-in-touch .sub-title {
+  text-align: center;
+  padding-top: 2vh;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+  /*overflow: hidden;*/
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+  font-family: Lusitana, serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
+  transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-family: Lusitana, serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #888;
+  cursor: text;
+  transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+.sermon-wrapper {
+ display: block;
+ border: 1px solid black;
+ margin: 20px auto;
+ max-width: 400px;
+}
+.sermon-video{
+ min-width: 100%;
+}
+.sermon-title {
+ padding: 15px;
+ font-size: 22px;
+ font-weight: 600;
+ font-family: "Poppins", sans-serif;
+}
+.sermon-date {
+ font-size: 18px;
+ font-weight: 400;
+ margin: 5px 15px 20px 15px;
+}
