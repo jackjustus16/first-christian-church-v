@@ -16,7 +16,7 @@ $(document).ready(function(){
   $.getJSON("https://rest-api-alexrich700.c9users.io/api/text")
   .then(app);
   function app(text){
-    console.log(text.text);
+    console.log(text[0].text);
   }
 })
 

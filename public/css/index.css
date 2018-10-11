@@ -18,7 +18,7 @@
      display: none !important;
 }
  .nav-item, .nav-link {
-     margin: 0 10px;
+     margin: auto 10px;
      font-size: 20px;
      font-weight: 500;
      font-family: 'Poppins', serif;
