@@ -57,70 +57,17 @@
      font-weight: 500;
      font-family: 'Poppins', sans-serif;
 }
- .head-cross {
-     max-width: none !important;
-}
- #wrap-cross {
-     position: absolute;
-     background-image: url('https://thegem2-codexthemes.netdna-ssl.com/thegem/wp-content/uploads/revslider/church-02/19.png');
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position: center;
-     margin: 0 auto;
-     left: 0;
-     right: 0;
-     padding-right: 50px;
-     padding-left: 50px;
-     display: inline-block;
-     width: 650px;
-     height: 370px;
-     position: sticky;
-}
-@media( max-height: 665px){
-  #wrap-cross {
-    background-image: url('');
-  }
-}
-@media( min-height: 700px){
-  #wrap-cross {
-    height: 335px !important;
-  }
-}
-@media( min-height: 780px){
-  #wrap-cross {
-    height: 350px !important;
-  }
-}
-@media( min-height: 860px){
-  #wrap-cross {
-    height: 360px !important;
-  }
-} 
-@media( min-height: 935px){
-  #wrap-cross {
-    height: 370px !important;
-  }
-}
 @media( min-height: 1022px){
-  #wrap-cross {
-    height: 390px !important;
-  }
   .jumbotron {
     height: 60vh;
   }
 }
 @media( min-height: 1276px){
-  #wrap-cross {
-    height: 455px !important;
-  }
   .jumbotron {
     height: 50vh;
   }
 }
 @media( min-height: 1364px){
-  #wrap-cross {
-    height: 480px !important;
-  }
   .jumbotron {
     height: 50vh;
   }
@@ -578,9 +525,9 @@
      text-align: left;
 }
  .footer-quote {
-     /*background-image: url(http://wp.swlabs.co/holycross/wp-content/uploads/2017/02/bg-footertop.jpg);*/
-     /*background-size: cover;*/
-     /*background-position: center;*/
+     background-image: url('../img/bible-verse-background');
+     background-repeat: no-repeat;
+     background-position: center;
      background-color: #f7f7f7;
      padding: 90px 0;
      text-align: center;
@@ -592,7 +539,7 @@
      border-left: none;
     /*margin: 0px 0px 20px;
     */
-     padding: 30px 30px 30px 50px;
+     padding: 30px 50px 30px 50px;
      position: relative;
      font-family: 'Crimson Text', serif;
      text-align: center;
@@ -665,9 +612,6 @@
      .logo-mob {
          display: inline-block !important;
          margin: 0 5vw !important;
-    }
-     #head-cross-id {
-         padding: 0 !important;
     }
      .new-here-btn-mob {
          font-size: 16px;
@@ -807,9 +751,6 @@
     }
 }
  @media(max-width: 675px) {
-     #head-cross-id {
-         padding: 0 !important;
-    }
      #wrap-cross {
          background-image: url("");
          padding:0 !important;
