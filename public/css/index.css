@@ -397,11 +397,24 @@
      margin-bottom: 5vh;
 }
  .img-wrap {
-     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSypUzY22zAcWPLeOlrm7d1NO3KZqsECiPbhKM89vJ0FSdIeVzW');
      background-size: cover;
      background-repeat: no-repeat;
      height: 400px;
      margin: 5vh 1vw 5vh 1vw;
+}
+.darken-pseudo {
+  position: relative;
+}
+
+.darken-pseudo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
 }
  .iw-line-1:before {
      content: "";
@@ -453,15 +466,19 @@
      font-weight: 600;
      position: absolute;
      color: #fff;
-     letter-spacing: 0.2em;
+     letter-spacing: 0.1em;
      margin-top: 75px;
      text-transform: uppercase;
      width: calc(100% - 4vw);
      word-wrap: break-word;
      text-align: center;
      padding: 0 65px;
+     z-index: 1;
+     width: 100%;
 }
  .info-wrap {
+     top: 240px;
+     right: 10px;
      position: absolute;
      bottom: 65px;
      width: 100%;
@@ -476,7 +493,7 @@
      text-align: center;
      display: block;
      float: left;
-     padding: 18px 10px 9px 10px;
+     padding: 18px 5px 9px 5px;
 }
  .day {
      font-size: 40px;
@@ -486,7 +503,7 @@
      text-align: center;
 }
  .month-year {
-     font-size: 11px;
+     font-size: 12px;
      font-family: 'Open Sans',sans-serif;
      font-weight: 600;
      text-transform: uppercase;
@@ -498,13 +515,14 @@
      overflow: hidden;
      color: #fff;
      float: left;
-     width: 70% !important;
      padding-left: 15px;
      display: block;
+     letter-spacing: 0.01em;
 }
  .event-title {
      color: #fff;
      line-height: 24px;
+     padding-top: 5px;
 }
  .event-title h3 {
      font-size: 18px;
@@ -1077,9 +1095,10 @@
 }
 .sermon-wrapper {
  display: block;
- border: 1px solid black;
+ border: 1px solid #c5c5c5;
+ border-radius: 0 0 20px 20px;
  margin: 20px auto;
- max-width: 400px;
+ max-width: 560px;
 }
 .sermon-video{
  min-width: 100%;
@@ -1089,9 +1108,11 @@
  font-size: 22px;
  font-weight: 600;
  font-family: "Poppins", sans-serif;
+ text-align: center;
 }
-.sermon-date {
+.sermon-desc {
  font-size: 18px;
  font-weight: 400;
  margin: 5px 15px 20px 15px;
+ text-align: center;
 }
