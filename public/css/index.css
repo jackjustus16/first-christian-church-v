@@ -21,7 +21,7 @@
      margin: auto 10px;
      font-size: 20px;
      font-weight: 500;
-     font-family: 'Poppins', serif;
+     font-family: Poppins, serif;
      color: #141414 !important;
      letter-spacing: 0.05em;
 }
@@ -48,14 +48,14 @@
      color: #fff;
      font-size: 60px;
      font-weight: 700;
-     font-family: 'Poppins', sans-serif;
+     font-family: Poppins, sans-serif;
      margin-top: 13vh;
 }
  .jumbotron .lead {
      color: #fff;
      font-size: 30px;
      font-weight: 500;
-     font-family: 'Poppins', sans-serif;
+     font-family: Poppins, sans-serif;
 }
 @media( min-height: 1022px){
   .jumbotron {
@@ -89,7 +89,7 @@
      font-weight: 600;
      color: #fff;
      line-height: 1.4;
-     font-family: 'Poppins', sans-serif;
+     font-family: Poppins, sans-serif;
 }
  .red-section-sub {
      color: #fff;
@@ -97,7 +97,7 @@
      font-size: 18px;
      font-weight: 500;
      line-height: 1.4;
-     font-family: 'Poppins', sans-serif;
+     font-family: Poppins, sans-serif;
 }
  .hor-line {
      border-left: 1px solid rgba(255, 255, 255, 0.3);
@@ -126,7 +126,7 @@
  .new-here-btn {
      background-color: #CF4A46;
      color: white;
-     font-family: 'Poppins', sans-serif;
+     font-family: Poppins, sans-serif;
      font-size: 28px;
      font-weight: 500;
      letter-spacing: 0.1em;
@@ -147,7 +147,7 @@
  .new-here-btn-mob {
      background-color: transparent;
      color: white;
-     font-family: 'Poppins', sans-serif;
+     font-family: Poppins, sans-serif;
      font-size: 20px;
      font-weight: 500;
      letter-spacing: 0.1em;
@@ -167,7 +167,7 @@
  .prayer-btn {
      background-color: transparent;
      color: white;
-     font-family: 'Poppins', sans-serif;
+     font-family: Poppins, sans-serif;
      font-size: 20px;
      font-weight: 500;
      letter-spacing: 0.1em;
@@ -839,7 +839,7 @@
 }
 
 .welcome-header {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 44px;
   font-weight: 600;
   max-width: 500px;
@@ -847,7 +847,7 @@
 }
 
 .welcome-para {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 20px;
   max-width: 500px;
   margin: 0 auto 5vh auto
@@ -884,7 +884,7 @@
 
 .welcome-sub-hero-head {
   font-size: 44px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 600;
   letter-spacing: 0.1em;
   padding: 120px 0;
@@ -913,7 +913,7 @@
  letter-spacing: 0.05em;
  font-weight: 600;
  text-align: center;
- font-family: 'Poppins' sans-serif;
+ font-family: Poppins sans-serif;
  color: white;
  margin-top: 50px;
 }
@@ -922,8 +922,8 @@
  line-height: 1.7;
  letter-spacing: 0.01em;
  text-align: center;
- font-family: 'Poppins' sans-serif;
- color: white;
+ font-family: Poppins sans-serif;
+ color: #fff;
  margin: 20px 10px 20px 10px;
 }
 
@@ -1032,7 +1032,7 @@
 .get-in-touch .title {
   text-align: center;
   padding-top: 5vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   letter-spacing: 3px;
   font-size: 42px;
   line-height: 48px;
@@ -1040,7 +1040,7 @@
 .get-in-touch .sub-title {
   text-align: center;
   padding-top: 2vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   letter-spacing: 1px;
   font-size: 18px;
   line-height: 24px;
@@ -1107,7 +1107,7 @@
  padding: 15px;
  font-size: 22px;
  font-weight: 600;
- font-family: "Poppins", sans-serif;
+ font-family: Poppins, sans-serif;
  text-align: center;
 }
 .sermon-desc {
